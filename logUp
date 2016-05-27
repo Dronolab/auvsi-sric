@@ -1,0 +1,10 @@
+--16:22:25-- `upload.txt'
+    => ftp://pi:xxxxx@192.168.0.106:21/auvsi/Dronolab%20ETS/Secret%20Folder%20Name/upload.txt
+Connecting to 192.168.0.106:21... connected! 
+Logging in as pi ... Logged in!
+Length: 11
+    0K 
+16:22:26 (upload.txt) - ` 2.29K/s' [11]
+
+FINISHED --16:22:26--
+Transfered 11 bytes in 1 file at 26.10B/s

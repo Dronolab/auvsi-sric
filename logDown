@@ -1,0 +1,10 @@
+--2016-05-27 16:22:24--  ftp://192.168.0.106/auvsi/Dronolab%20ETS/Secret%20Folder%20Name/download.txt
+           => '/Users/pierrebonzel/Sites/test/download.txt'
+Connecting to 192.168.0.106:21... connected.
+Logging in as pi ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /home/pi/auvsi/Dronolab ETS/Secret Folder Name ... done.
+==> SIZE download.txt ... 13
+File has already been retrieved.
+2016-05-27 16:22:24 (0.00 B/s) - '/Users/pierrebonzel/Sites/test/download.txt' saved [13]
+
