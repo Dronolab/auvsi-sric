@@ -28,3 +28,47 @@ Length: 11
 
 FINISHED --16:34:08--
 Transfered 11 bytes in 1 file at 14.00B/s
+--16:52:16-- `upload.txt'
+    => ftp://pi:xxxxx@192.168.0.106:21/auvsi/Dronolab%20ETS/Secret%20Folder%20Name/upload.txt
+Connecting to 192.168.0.106:21... connected! 
+Logging in as pi ... Error: Login-Sequence failed (Login incorrect.)
+Skipping all files from this account...
+FINISHED --16:52:19--
+Transmission of 1 file failed.
+--16:52:53-- `upload.txt'
+    => ftp://pi:xxxxx@192.168.0.106:21/auvsi/Dronolab%20ETS/Secret%20Folder%20Name/upload.txt
+Connecting to 192.168.0.106:21... connected! 
+Logging in as pi ... Error: Login-Sequence failed (Login incorrect.)
+Skipping all files from this account...
+FINISHED --16:52:57--
+Transmission of 1 file failed.
+--16:53:07-- `upload.txt'
+    => ftp://pi:xxxxx@192.168.0.106:21/auvsi/Dronolab%20ETS/Secret%20Folder%20Name/upload.txt
+Connecting to 192.168.0.106:21... connected! 
+Logging in as pi ... Logged in!
+Length: 11
+    0K 
+16:53:08 (upload.txt) - `902.6B/s' [11]
+
+FINISHED --16:53:08--
+Transfered 11 bytes in 1 file at 30.11B/s
+--16:53:58-- `upload.txt'
+    => ftp://pi:xxxxx@192.168.0.106:21/auvsi/Dronolab%20ETS/Secret%20Folder%20Name/upload.txt
+Connecting to 192.168.0.106:21... connected! 
+Logging in as pi ... Logged in!
+Length: 11
+    0K 
+16:53:58 (upload.txt) - `659.9B/s' [11]
+
+FINISHED --16:53:58--
+Transfered 11 bytes in 1 file at 18.15B/s
+--16:56:19-- `upload.txt'
+    => ftp://pi:xxxxx@192.168.0.106:21/auvsi/Dronolab%20ETS/Secret%20Folder%20Name/upload.txt
+Connecting to 192.168.0.106:21... connected! 
+Logging in as pi ... Logged in!
+Length: 11
+    0K 
+16:56:20 (upload.txt) - `360.5B/s' [11]
+
+FINISHED --16:56:20--
+Transfered 11 bytes in 1 file at 11.74B/s
