@@ -8,3 +8,23 @@ Length: 11
 
 FINISHED --16:22:26--
 Transfered 11 bytes in 1 file at 26.10B/s
+--16:33:55-- `upload.txt'
+    => ftp://pi:xxxxx@192.168.0.106:21/auvsi/Dronolab%20ETS/Secret%20Folder%20Name/upload.txt
+Connecting to 192.168.0.106:21... connected! 
+Logging in as pi ... Logged in!
+Length: 11
+    0K 
+16:33:56 (upload.txt) - `291.6B/s' [11]
+
+FINISHED --16:33:56--
+Transfered 11 bytes in 1 file at 10.24B/s
+--16:34:08-- `upload.txt'
+    => ftp://pi:xxxxx@192.168.0.106:21/auvsi/Dronolab%20ETS/Secret%20Folder%20Name/upload.txt
+Connecting to 192.168.0.106:21... connected! 
+Logging in as pi ... Logged in!
+Length: 11
+    0K 
+16:34:08 (upload.txt) - `100.3B/s' [11]
+
+FINISHED --16:34:08--
+Transfered 11 bytes in 1 file at 14.00B/s
