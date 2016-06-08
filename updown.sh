@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#updown.sh [IP] [TEAM DIR] [X DIR] [FTP USERNAME] [FTP PASSWORD] [FTP PORT] [LOCAL DIR]
+#updown.sh [IP] [TEAM DIR] [X DIR] [FTP USERNAME] [FTP PASSWORD] [FTP PORT] [LOCAL DIR] [FILE NAME UP] [FILE NAME DOWN]
 #ex : sudo sh updown.sh 192.168.0.106 auvsi/Dronolab%20ETS Secret%20Folder%20Name pi superclub 21 .
 
 HOST=$1
@@ -10,8 +10,10 @@ USERNAME=$4
 PASSWORD=$5
 PORT=$6
 LDIR=$7
-FILEUP='upload.txt'
-FILEDOWN='download.txt'
+FILEUP=$8
+FILEDOWN=$9
+
+sudo route add -net $1 netmask 255.255.255.255 wlan1
 
 wget_output=$(wget -c --user=$USERNAME --password=$PASSWORD ftp://$HOST:$PORT/$TEAMDIR/$XDIR/$FILEDOWN -o $LDIR/logDown -P $LDIR)
 if [ $? -ne 0 ]; then
